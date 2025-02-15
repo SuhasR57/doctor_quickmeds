@@ -39,7 +39,7 @@ export default function DoctorInterface() {
     setCurrentToken(0);
     setIsPaused(false);
     // Clear patient details when stopping
-    setCurrentPatient(null);
+    //setCurrentPatient(null);
   };
 
   const handlePause = () => {

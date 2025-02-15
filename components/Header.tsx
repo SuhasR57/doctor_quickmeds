@@ -50,6 +50,11 @@ export default function Header() {
                   Profile
                 </Button>
               </Link>
+               <Link href="/summarizer" onClick={() => setIsOpen(false)}>
+                <Button variant="ghost" className="w-full justify-start text-lg">
+                  NLP Summarizer
+                </Button>
+              </Link>
             </nav>
           </SheetContent>
         </Sheet>
